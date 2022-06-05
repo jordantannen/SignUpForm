@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="image-container">
+        <div class="logo-overlay">
+            <div class="logo">
+                <img src="assets/odin-lined.png" id="logo" alt="logo">
+                <h1>Odin Project</h1>
+            </div>
+            <div id="credit">Photo from Unsplash</div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="block" id="top-container">
+            <div class="top-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Leo integer malesuada nunc vel
+                risus commodo viverra maecenas accumsan. Sed vulputate mi sit amet mauris.
+            </div>
+        </div>
+        <div class="block" id="form-container">
+            <form action="">
+
+                
+                <legend>Sign Up Now!</legend>
+                <div class="input-box">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="phone-number">Phone Number:</label>
+                    <input type="tel" id="phone-number" minlength="9" maxlength="9">
+                </div>
+
+                <div class="input-box">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="confirm-password">Confirm Passwords:</label>
+                    <input type="password" id="confirm-password" required>
+                </div>
+
+                <div class="input-box" id="bottom-container">
+                    <input type="button" class="button" value="Signup">
+                    <div class="account">Already have an account? Log in.</div>
+                </div>
+
+            </form>
+        </div>
+        <div class="block" id="bottom-container">
+            
+        </div>
+    </div>
+    
+</body>
+</html>

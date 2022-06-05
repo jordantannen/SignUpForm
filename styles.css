@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #F9FAFB;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Left Side */
+
+.image-container{
+    display: flex;
+    width: auto;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo-overlay{
+    width: 40vw;
+    background-image: url(Assets/background.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: flex;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    height: 10vh;
+}
+
+h1{
+    color: white;
+    
+}
+
+#credit{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 3vh;
+}
+
+/* Right */
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.block{
+    height: 20vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#form-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+    padding-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.top-text, legend{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+legend{
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+.top-text{
+    margin-right: 100px;
+    margin-top: 50px;
+}
+/* Form */
+
+.input-box{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 80%;
+}
+
+.button{
+    background-color: #596D48;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 5px 30px;
+    position: relative;
+    top: 15vh;
+}
+
+.account{
+    position: relative;
+    top: 18vh;
+    left: 13vh;
+}
